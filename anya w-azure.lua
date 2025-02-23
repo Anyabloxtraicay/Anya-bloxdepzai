@@ -1,7 +1,7 @@
 repeat wait()
 until getgenv().LoadUi and getgenv().IslandCaller and getgenv().SettingManager 
-local Title = "Anya blox trái cây" .. (getgenv().Premium and " [Premium]" or "")
-local SubTitle = "True V2 discord.gg/w-azure"
+local Title = "Anya blox trai cay" .. (getgenv().Premium and " [Premium]" or "")
+local SubTitle = "True V2 "
 local Fluent = loadstring(game:HttpGet("https://raw.githubusercontent.com/vinhuchi/rblx/main/FixedFluent.lua"))()
 local UiSetting = Fluent.Options
 local IslandCaller = IslandCaller or getgenv().IslandCaller
